@@ -4,7 +4,7 @@
 
 MeterVellum helps multi-site businesses (retail chains, hotels, schools, restaurant groups and commercial property operators) compare electricity and water use across locations. AI extracts bill data, normalises billing periods and flags unusual consumption or charges. Forecasting estimates upcoming spend from usage trends and confirmed tariffs. Facilities teams review every flag before a report goes out.
 
-> MeterVellum is a proposed product. Pricing is illustrative and the prototype uses fictional bills. Founder: **Aisha Suleiman**. Website: `metervellum.space` · contact: `aisha@metervellum.space`. LinkedIn availability for `metervellum` / `meter-vellum` is unconfirmed, so no page is linked. Organisation types named on the site are prospective customers with no implied affiliation.
+> MeterVellum is a proposed product. Pricing is illustrative and the prototype uses fictional bills. Founder: **Aisha Suleiman**; co-founder **Zainab Lawal**; CTO **Tochukwu Okonkwo**. Website: `metervellum.space` · contact: `aisha@metervellum.space`. LinkedIn availability for `metervellum` / `meter-vellum` is unconfirmed, so no page is linked. Organisation types named on the site are prospective customers with no implied affiliation.
 
 ## Design
 

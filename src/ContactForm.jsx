@@ -25,7 +25,7 @@ export default function ContactForm() {
   if (sent) return (
     <div className="fm-sent" role="status">
       <h3>Thanks, {f.name.split(' ')[0] || 'there'}.</h3>
-      {sent === 'hubspot' ? <p>Your message has reached the founder. We reply by email.</p> : <><p>No form service is connected yet, so please send your message as an email — it is pre-filled.</p><a className="btn" href={mailto}>Email {site.email}</a></>}
+      {sent === 'hubspot' ? <p>Your message has reached the founders. We reply by email.</p> : <><p>No form service is connected yet, so please send your message as an email — it is pre-filled.</p><a className="btn" href={mailto}>Email {site.email}</a></>}
       <button type="button" className="fm-link" onClick={() => setSent(null)}>Edit message</button>
     </div>
   );
