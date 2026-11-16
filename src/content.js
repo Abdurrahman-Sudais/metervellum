@@ -8,7 +8,7 @@ const site = {
   url: 'https://metervellum.space',
   email: 'aisha@metervellum.space',
   team: [
-    {name: 'Aisha Suleiman', role: 'Founder', initials: 'AS', bio: 'Aisha founded MeterVellum after seeing facilities teams try to compare dozens of locations from bills that each ran on a different calendar, in a different format — and miss repeated charges and runaway usage until the year-end audit. She leads product, customers and every pilot.', focus: ['Product', 'Customer pilots', 'Facilities reporting']},
+    {name: 'Aisha Suleiman', role: 'Founder', initials: 'AS', bio: 'Aisha founded MeterVellum after seeing facilities teams try to compare dozens of locations from bills that each ran on a different calendar, in a different format — and miss repeated charges and runaway usage until the year-end audit. Aisha leads product, customers and every pilot.', focus: ['Product', 'Customer pilots', 'Facilities reporting']},
   ],
   stats: [
     {value: '5.9M', label: 'Commercial buildings in the United States, using about 6.8 quadrillion Btu of energy a year.', source: 'US EIA, Commercial Buildings Energy Consumption Survey (2018)', url: 'https://www.eia.gov/energyexplained/use-of-energy/commercial-buildings.php'},
