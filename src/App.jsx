@@ -112,8 +112,8 @@ function Compare() {
       <h2 id="cmp-title">Compare like with like.</h2>
       <p className="intro">MeterVellum spreads each bill evenly across its days, rebuilds calendar months, and divides by floor area — so a hotel and a corner store can sit on the same chart.</p>
       <table className="cmp" data-read>
-        <thead><tr><th scope="col">Location</th><th scope="col">Type</th><th scope="col">October kWh</th><th scope="col">kWh per day</th><th scope="col">kWh / m² / day</th><th scope="col">October cost</th></tr></thead>
-        <tbody>{rows.map((l) => <tr key={l.id}><th scope="row">{l.name}</th><td>{l.type}</td><td>{Math.round(l.kwh).toLocaleString()}</td><td>{Math.round(l.kwh / 31).toLocaleString()}</td><td><b>{l.intensity.toFixed(2)}</b></td><td>{money(l.cost)}</td></tr>)}</tbody>
+        <thead><tr><th scope="col">Location</th><th scope="col" className="opt-md">Type</th><th scope="col" className="opt-sm">October kWh</th><th scope="col" className="opt-sm">kWh per day</th><th scope="col">kWh / m² / day</th><th scope="col">October cost</th></tr></thead>
+        <tbody>{rows.map((l) => <tr key={l.id}><th scope="row">{l.name}<small className="cmp-type">{l.type}</small></th><td className="opt-md">{l.type}</td><td className="opt-sm">{Math.round(l.kwh).toLocaleString()}</td><td className="opt-sm">{Math.round(l.kwh / 31).toLocaleString()}</td><td><b>{l.intensity.toFixed(2)}</b></td><td>{money(l.cost)}</td></tr>)}</tbody>
       </table>
     </section>
   );
